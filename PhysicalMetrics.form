@@ -31,56 +31,56 @@
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="bmiLabel4" min="-2" max="-2" attributes="0"/>
+                              <Component id="hipLabel" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="bmiTextField4" min="-2" pref="144" max="-2" attributes="0"/>
+                              <Component id="hipTextField" min="-2" pref="144" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="197" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="bmiLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="bmiLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="bmiLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="bmiLabel6" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="bmiLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="bmiLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="chestLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="leftArmLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rightThighLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="leftThighLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rightCalfLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="leftCalfLabel" alignment="1" min="-2" max="-2" attributes="0"/>
                                   <Component id="weightLabel" alignment="1" min="-2" max="-2" attributes="0"/>
                                   <Component id="heightLabel" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="bmiLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="bmiLabel" min="-2" max="-2" attributes="0"/>
-                                  <Component id="bmiLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="shoulderLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rightArmLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bmiLabel" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="weightTextField" min="-2" pref="144" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="heightTextField" alignment="0" min="-2" pref="144" max="-2" attributes="0"/>
+                                      <Component id="shoulderTextField" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
+                                      <Component id="rightArmTextField" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
+                                      <Component id="leftArmTextField" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
+                                      <Component id="chestTextField" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
+                                      <Component id="rightThighTextField" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
+                                      <Component id="leftThighTextField" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
+                                      <Component id="rightCalfTextField" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
+                                      <Component id="leftCalfTextField" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
                                       <Component id="bmiTextField" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
-                                      <Component id="bmiTextField1" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
-                                      <Component id="bmiTextField2" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
-                                      <Component id="bmiTextField3" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
-                                      <Component id="bmiTextField5" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
-                                      <Component id="bmiTextField6" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
-                                      <Component id="bmiTextField7" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
-                                      <Component id="bmiTextField8" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
-                                      <Component id="bmiTextField9" alignment="1" min="-2" pref="144" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel1" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="jLabel3" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="jLabel5" min="-2" pref="52" max="-2" attributes="0"/>
-                          <Component id="jLabel2" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="jLabel4" min="-2" pref="52" max="-2" attributes="0"/>
-                          <Component id="jLabel6" min="-2" pref="52" max="-2" attributes="0"/>
-                          <Component id="jLabel7" min="-2" pref="52" max="-2" attributes="0"/>
-                          <Component id="jLabel8" min="-2" pref="52" max="-2" attributes="0"/>
-                          <Component id="jLabel9" min="-2" pref="52" max="-2" attributes="0"/>
-                          <Component id="jLabel10" min="-2" pref="52" max="-2" attributes="0"/>
-                          <Component id="jLabel11" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="shoulderDescriptionLabel" min="-2" pref="91" max="-2" attributes="0"/>
+                          <Component id="rightArmDescriptionLabel" min="-2" pref="91" max="-2" attributes="0"/>
+                          <Component id="leftArmDescriptionLabel" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="chestDescriptionLabel" min="-2" pref="91" max="-2" attributes="0"/>
+                          <Component id="hipDescriptionLabel" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="rightThighDescriptionLabel" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="leftThighDescriptionLabel" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="rightCalfDescriptionLabel" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="leftCalfDescriptionLabel" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="heightDescriptionLabel" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="weightDescriptionLabel" min="-2" pref="52" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -89,7 +89,7 @@
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               <Component id="physicalMetricsSubmitButton" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="305" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="307" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -104,76 +104,76 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="weightTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="weightLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="weightDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="heightTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="heightLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="heightDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bmiTextField" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bmiLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="shoulderTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="shoulderLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="shoulderDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bmiTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bmiLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rightArmTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rightArmLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rightArmDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bmiTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bmiLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="leftArmTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="leftArmLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="leftArmDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bmiTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bmiLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chestTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chestLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chestDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bmiLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bmiTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hipLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hipTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hipDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bmiTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bmiLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rightThighTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rightThighLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rightThighDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bmiTextField6" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bmiLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="leftThighTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="leftThighLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="leftThighDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bmiTextField7" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bmiLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rightCalfTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rightCalfLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rightCalfDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bmiTextField8" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bmiLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="leftCalfTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="leftCalfLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="leftCalfDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="bmiTextField9" min="-2" max="-2" attributes="0"/>
+                      <Component id="bmiTextField" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="bmiLabel9" min="-2" max="-2" attributes="0"/>
+                  <Component id="bmiLabel" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
               <Component id="physicalMetricsSubmitButton" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="58" max="32767" attributes="0"/>
+              <EmptySpace pref="75" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -201,7 +201,7 @@
         <Property name="text" type="java.lang.String" value="Height"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="bmiLabel">
+    <Component class="javax.swing.JLabel" name="rightArmLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -219,7 +219,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="heightTextField">
     </Component>
-    <Component class="javax.swing.JTextField" name="bmiTextField">
+    <Component class="javax.swing.JTextField" name="shoulderTextField">
     </Component>
     <Component class="javax.swing.JButton" name="physicalMetricsSubmitButton">
       <Properties>
@@ -247,7 +247,7 @@
         <Property name="text" type="java.lang.String" value="Please input your body metric data below."/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="bmiLabel1">
+    <Component class="javax.swing.JLabel" name="shoulderLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -258,7 +258,7 @@
         <Property name="text" type="java.lang.String" value="Shoulder"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="bmiLabel2">
+    <Component class="javax.swing.JLabel" name="chestLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -269,7 +269,7 @@
         <Property name="text" type="java.lang.String" value="Chest"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="bmiLabel3">
+    <Component class="javax.swing.JLabel" name="leftArmLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -280,23 +280,23 @@
         <Property name="text" type="java.lang.String" value="Left arm"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="bmiTextField1">
+    <Component class="javax.swing.JTextField" name="rightArmTextField">
     </Component>
-    <Component class="javax.swing.JTextField" name="bmiTextField2">
+    <Component class="javax.swing.JTextField" name="leftArmTextField">
     </Component>
-    <Component class="javax.swing.JTextField" name="bmiTextField3">
+    <Component class="javax.swing.JTextField" name="chestTextField">
     </Component>
-    <Component class="javax.swing.JTextField" name="bmiTextField4">
+    <Component class="javax.swing.JTextField" name="hipTextField">
     </Component>
-    <Component class="javax.swing.JTextField" name="bmiTextField5">
+    <Component class="javax.swing.JTextField" name="rightThighTextField">
     </Component>
-    <Component class="javax.swing.JTextField" name="bmiTextField6">
+    <Component class="javax.swing.JTextField" name="leftThighTextField">
     </Component>
-    <Component class="javax.swing.JTextField" name="bmiTextField7">
+    <Component class="javax.swing.JTextField" name="rightCalfTextField">
     </Component>
-    <Component class="javax.swing.JTextField" name="bmiTextField8">
+    <Component class="javax.swing.JTextField" name="leftCalfTextField">
     </Component>
-    <Component class="javax.swing.JLabel" name="bmiLabel4">
+    <Component class="javax.swing.JLabel" name="hipLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -307,7 +307,7 @@
         <Property name="text" type="java.lang.String" value="Hip"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="bmiLabel5">
+    <Component class="javax.swing.JLabel" name="rightThighLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -318,7 +318,7 @@
         <Property name="text" type="java.lang.String" value="Right thigh"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="bmiLabel6">
+    <Component class="javax.swing.JLabel" name="leftThighLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -329,7 +329,7 @@
         <Property name="text" type="java.lang.String" value="Left thigh"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="bmiLabel7">
+    <Component class="javax.swing.JLabel" name="rightCalfLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -340,7 +340,7 @@
         <Property name="text" type="java.lang.String" value="Right calf"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="bmiLabel8">
+    <Component class="javax.swing.JLabel" name="leftCalfLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -351,7 +351,7 @@
         <Property name="text" type="java.lang.String" value="Left calf"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="shoulderDescriptionLabel">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -359,7 +359,7 @@
         <Property name="text" type="java.lang.String" value="in cm"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="chestDescriptionLabel">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -367,7 +367,7 @@
         <Property name="text" type="java.lang.String" value="in cm"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JLabel" name="rightArmDescriptionLabel">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -375,7 +375,7 @@
         <Property name="text" type="java.lang.String" value="in cm"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
+    <Component class="javax.swing.JLabel" name="hipDescriptionLabel">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -383,7 +383,7 @@
         <Property name="text" type="java.lang.String" value="in cm"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
+    <Component class="javax.swing.JLabel" name="leftArmDescriptionLabel">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -391,7 +391,7 @@
         <Property name="text" type="java.lang.String" value="in cm"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel6">
+    <Component class="javax.swing.JLabel" name="rightThighDescriptionLabel">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -399,7 +399,7 @@
         <Property name="text" type="java.lang.String" value="in cm"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel7">
+    <Component class="javax.swing.JLabel" name="leftThighDescriptionLabel">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -407,7 +407,7 @@
         <Property name="text" type="java.lang.String" value="in cm"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel8">
+    <Component class="javax.swing.JLabel" name="rightCalfDescriptionLabel">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -415,7 +415,7 @@
         <Property name="text" type="java.lang.String" value="in cm"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel9">
+    <Component class="javax.swing.JLabel" name="leftCalfDescriptionLabel">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -423,7 +423,7 @@
         <Property name="text" type="java.lang.String" value="in cm"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel10">
+    <Component class="javax.swing.JLabel" name="heightDescriptionLabel">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -431,7 +431,7 @@
         <Property name="text" type="java.lang.String" value="in cm"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel11">
+    <Component class="javax.swing.JLabel" name="weightDescriptionLabel">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -439,7 +439,7 @@
         <Property name="text" type="java.lang.String" value="in kg"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="bmiLabel9">
+    <Component class="javax.swing.JLabel" name="bmiLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -450,7 +450,7 @@
         <Property name="text" type="java.lang.String" value="BMI"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="bmiTextField9">
+    <Component class="javax.swing.JTextField" name="bmiTextField">
     </Component>
   </SubComponents>
 </Form>

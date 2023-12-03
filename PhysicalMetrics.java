@@ -28,41 +28,41 @@ public class PhysicalMetrics extends javax.swing.JPanel {
 
         weightLabel = new javax.swing.JLabel();
         heightLabel = new javax.swing.JLabel();
-        bmiLabel = new javax.swing.JLabel();
+        rightArmLabel = new javax.swing.JLabel();
         weightTextField = new javax.swing.JTextField();
         heightTextField = new javax.swing.JTextField();
-        bmiTextField = new javax.swing.JTextField();
+        shoulderTextField = new javax.swing.JTextField();
         physicalMetricsSubmitButton = new javax.swing.JButton();
         instructionTitleLabel = new javax.swing.JLabel();
-        bmiLabel1 = new javax.swing.JLabel();
-        bmiLabel2 = new javax.swing.JLabel();
-        bmiLabel3 = new javax.swing.JLabel();
-        bmiTextField1 = new javax.swing.JTextField();
-        bmiTextField2 = new javax.swing.JTextField();
-        bmiTextField3 = new javax.swing.JTextField();
-        bmiTextField4 = new javax.swing.JTextField();
-        bmiTextField5 = new javax.swing.JTextField();
-        bmiTextField6 = new javax.swing.JTextField();
-        bmiTextField7 = new javax.swing.JTextField();
-        bmiTextField8 = new javax.swing.JTextField();
-        bmiLabel4 = new javax.swing.JLabel();
-        bmiLabel5 = new javax.swing.JLabel();
-        bmiLabel6 = new javax.swing.JLabel();
-        bmiLabel7 = new javax.swing.JLabel();
-        bmiLabel8 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        bmiLabel9 = new javax.swing.JLabel();
-        bmiTextField9 = new javax.swing.JTextField();
+        shoulderLabel = new javax.swing.JLabel();
+        chestLabel = new javax.swing.JLabel();
+        leftArmLabel = new javax.swing.JLabel();
+        rightArmTextField = new javax.swing.JTextField();
+        leftArmTextField = new javax.swing.JTextField();
+        chestTextField = new javax.swing.JTextField();
+        hipTextField = new javax.swing.JTextField();
+        rightThighTextField = new javax.swing.JTextField();
+        leftThighTextField = new javax.swing.JTextField();
+        rightCalfTextField = new javax.swing.JTextField();
+        leftCalfTextField = new javax.swing.JTextField();
+        hipLabel = new javax.swing.JLabel();
+        rightThighLabel = new javax.swing.JLabel();
+        leftThighLabel = new javax.swing.JLabel();
+        rightCalfLabel = new javax.swing.JLabel();
+        leftCalfLabel = new javax.swing.JLabel();
+        shoulderDescriptionLabel = new javax.swing.JLabel();
+        chestDescriptionLabel = new javax.swing.JLabel();
+        rightArmDescriptionLabel = new javax.swing.JLabel();
+        hipDescriptionLabel = new javax.swing.JLabel();
+        leftArmDescriptionLabel = new javax.swing.JLabel();
+        rightThighDescriptionLabel = new javax.swing.JLabel();
+        leftThighDescriptionLabel = new javax.swing.JLabel();
+        rightCalfDescriptionLabel = new javax.swing.JLabel();
+        leftCalfDescriptionLabel = new javax.swing.JLabel();
+        heightDescriptionLabel = new javax.swing.JLabel();
+        weightDescriptionLabel = new javax.swing.JLabel();
+        bmiLabel = new javax.swing.JLabel();
+        bmiTextField = new javax.swing.JTextField();
 
         setBackground(new java.awt.Color(255, 255, 255));
 
@@ -74,9 +74,9 @@ public class PhysicalMetrics extends javax.swing.JPanel {
         heightLabel.setForeground(new java.awt.Color(0, 102, 102));
         heightLabel.setText("Height");
 
-        bmiLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        bmiLabel.setForeground(new java.awt.Color(0, 102, 102));
-        bmiLabel.setText("Right arm");
+        rightArmLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        rightArmLabel.setForeground(new java.awt.Color(0, 102, 102));
+        rightArmLabel.setText("Right arm");
 
         weightTextField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,74 +98,74 @@ public class PhysicalMetrics extends javax.swing.JPanel {
         instructionTitleLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         instructionTitleLabel.setText("Please input your body metric data below.");
 
-        bmiLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        bmiLabel1.setForeground(new java.awt.Color(0, 102, 102));
-        bmiLabel1.setText("Shoulder");
+        shoulderLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        shoulderLabel.setForeground(new java.awt.Color(0, 102, 102));
+        shoulderLabel.setText("Shoulder");
 
-        bmiLabel2.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        bmiLabel2.setForeground(new java.awt.Color(0, 102, 102));
-        bmiLabel2.setText("Chest");
+        chestLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        chestLabel.setForeground(new java.awt.Color(0, 102, 102));
+        chestLabel.setText("Chest");
 
-        bmiLabel3.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        bmiLabel3.setForeground(new java.awt.Color(0, 102, 102));
-        bmiLabel3.setText("Left arm");
+        leftArmLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        leftArmLabel.setForeground(new java.awt.Color(0, 102, 102));
+        leftArmLabel.setText("Left arm");
 
-        bmiLabel4.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        bmiLabel4.setForeground(new java.awt.Color(0, 102, 102));
-        bmiLabel4.setText("Hip");
+        hipLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        hipLabel.setForeground(new java.awt.Color(0, 102, 102));
+        hipLabel.setText("Hip");
 
-        bmiLabel5.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        bmiLabel5.setForeground(new java.awt.Color(0, 102, 102));
-        bmiLabel5.setText("Right thigh");
+        rightThighLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        rightThighLabel.setForeground(new java.awt.Color(0, 102, 102));
+        rightThighLabel.setText("Right thigh");
 
-        bmiLabel6.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        bmiLabel6.setForeground(new java.awt.Color(0, 102, 102));
-        bmiLabel6.setText("Left thigh");
+        leftThighLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        leftThighLabel.setForeground(new java.awt.Color(0, 102, 102));
+        leftThighLabel.setText("Left thigh");
 
-        bmiLabel7.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        bmiLabel7.setForeground(new java.awt.Color(0, 102, 102));
-        bmiLabel7.setText("Right calf");
+        rightCalfLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        rightCalfLabel.setForeground(new java.awt.Color(0, 102, 102));
+        rightCalfLabel.setText("Right calf");
 
-        bmiLabel8.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        bmiLabel8.setForeground(new java.awt.Color(0, 102, 102));
-        bmiLabel8.setText("Left calf");
+        leftCalfLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        leftCalfLabel.setForeground(new java.awt.Color(0, 102, 102));
+        leftCalfLabel.setText("Left calf");
 
-        jLabel1.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel1.setText("in cm");
+        shoulderDescriptionLabel.setForeground(new java.awt.Color(0, 102, 102));
+        shoulderDescriptionLabel.setText("in cm");
 
-        jLabel2.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel2.setText("in cm");
+        chestDescriptionLabel.setForeground(new java.awt.Color(0, 102, 102));
+        chestDescriptionLabel.setText("in cm");
 
-        jLabel3.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel3.setText("in cm");
+        rightArmDescriptionLabel.setForeground(new java.awt.Color(0, 102, 102));
+        rightArmDescriptionLabel.setText("in cm");
 
-        jLabel4.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel4.setText("in cm");
+        hipDescriptionLabel.setForeground(new java.awt.Color(0, 102, 102));
+        hipDescriptionLabel.setText("in cm");
 
-        jLabel5.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel5.setText("in cm");
+        leftArmDescriptionLabel.setForeground(new java.awt.Color(0, 102, 102));
+        leftArmDescriptionLabel.setText("in cm");
 
-        jLabel6.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel6.setText("in cm");
+        rightThighDescriptionLabel.setForeground(new java.awt.Color(0, 102, 102));
+        rightThighDescriptionLabel.setText("in cm");
 
-        jLabel7.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel7.setText("in cm");
+        leftThighDescriptionLabel.setForeground(new java.awt.Color(0, 102, 102));
+        leftThighDescriptionLabel.setText("in cm");
 
-        jLabel8.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel8.setText("in cm");
+        rightCalfDescriptionLabel.setForeground(new java.awt.Color(0, 102, 102));
+        rightCalfDescriptionLabel.setText("in cm");
 
-        jLabel9.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel9.setText("in cm");
+        leftCalfDescriptionLabel.setForeground(new java.awt.Color(0, 102, 102));
+        leftCalfDescriptionLabel.setText("in cm");
 
-        jLabel10.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel10.setText("in cm");
+        heightDescriptionLabel.setForeground(new java.awt.Color(0, 102, 102));
+        heightDescriptionLabel.setText("in cm");
 
-        jLabel11.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel11.setText("in kg");
+        weightDescriptionLabel.setForeground(new java.awt.Color(0, 102, 102));
+        weightDescriptionLabel.setText("in kg");
 
-        bmiLabel9.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        bmiLabel9.setForeground(new java.awt.Color(0, 102, 102));
-        bmiLabel9.setText("BMI");
+        bmiLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        bmiLabel.setForeground(new java.awt.Color(0, 102, 102));
+        bmiLabel.setText("BMI");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -180,55 +180,55 @@ public class PhysicalMetrics extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(bmiLabel4)
+                                .addComponent(hipLabel)
                                 .addGap(18, 18, 18)
-                                .addComponent(bmiTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(hipTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                 .addGap(197, 197, 197)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(bmiLabel2)
-                                    .addComponent(bmiLabel3)
-                                    .addComponent(bmiLabel5)
-                                    .addComponent(bmiLabel6)
-                                    .addComponent(bmiLabel7)
-                                    .addComponent(bmiLabel8)
+                                    .addComponent(chestLabel)
+                                    .addComponent(leftArmLabel)
+                                    .addComponent(rightThighLabel)
+                                    .addComponent(leftThighLabel)
+                                    .addComponent(rightCalfLabel)
+                                    .addComponent(leftCalfLabel)
                                     .addComponent(weightLabel)
                                     .addComponent(heightLabel)
-                                    .addComponent(bmiLabel1)
-                                    .addComponent(bmiLabel)
-                                    .addComponent(bmiLabel9))
+                                    .addComponent(shoulderLabel)
+                                    .addComponent(rightArmLabel)
+                                    .addComponent(bmiLabel))
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(weightTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(heightTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(bmiTextField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(bmiTextField1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(bmiTextField2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(bmiTextField3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(bmiTextField5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(bmiTextField6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(bmiTextField7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(bmiTextField8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(bmiTextField9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                        .addComponent(shoulderTextField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(rightArmTextField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(leftArmTextField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(chestTextField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(rightThighTextField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(leftThighTextField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(rightCalfTextField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(leftCalfTextField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(bmiTextField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(shoulderDescriptionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(rightArmDescriptionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(leftArmDescriptionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(chestDescriptionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(hipDescriptionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(rightThighDescriptionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(leftThighDescriptionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(rightCalfDescriptionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(leftCalfDescriptionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(heightDescriptionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(weightDescriptionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(164, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(physicalMetricsSubmitButton)
-                .addGap(305, 305, 305))
+                .addGap(307, 307, 307))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -241,63 +241,63 @@ public class PhysicalMetrics extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(weightTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(weightLabel)
-                            .addComponent(jLabel11))
+                            .addComponent(weightDescriptionLabel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(heightTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(heightLabel)
-                            .addComponent(jLabel10))
+                            .addComponent(heightDescriptionLabel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bmiTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(bmiLabel1)
-                            .addComponent(jLabel1))
+                            .addComponent(shoulderTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(shoulderLabel)
+                            .addComponent(shoulderDescriptionLabel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bmiTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(bmiLabel)
-                            .addComponent(jLabel3))
+                            .addComponent(rightArmTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(rightArmLabel)
+                            .addComponent(rightArmDescriptionLabel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bmiTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(bmiLabel3)
-                            .addComponent(jLabel5))
+                            .addComponent(leftArmTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(leftArmLabel)
+                            .addComponent(leftArmDescriptionLabel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bmiTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(bmiLabel2)
-                            .addComponent(jLabel2))
+                            .addComponent(chestTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(chestLabel)
+                            .addComponent(chestDescriptionLabel))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bmiLabel4)
-                            .addComponent(bmiTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel4))
+                            .addComponent(hipLabel)
+                            .addComponent(hipTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(hipDescriptionLabel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bmiTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(bmiLabel5)
-                            .addComponent(jLabel6))
+                            .addComponent(rightThighTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(rightThighLabel)
+                            .addComponent(rightThighDescriptionLabel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bmiTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(bmiLabel6)
-                            .addComponent(jLabel7))
+                            .addComponent(leftThighTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(leftThighLabel)
+                            .addComponent(leftThighDescriptionLabel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bmiTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(bmiLabel7)
-                            .addComponent(jLabel8))
+                            .addComponent(rightCalfTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(rightCalfLabel)
+                            .addComponent(rightCalfDescriptionLabel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bmiTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(bmiLabel8)
-                            .addComponent(jLabel9))
+                            .addComponent(leftCalfTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(leftCalfLabel)
+                            .addComponent(leftCalfDescriptionLabel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(bmiTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(bmiLabel9))
-                .addGap(67, 67, 67)
+                        .addComponent(bmiTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(bmiLabel))
+                .addGap(50, 50, 50)
                 .addComponent(physicalMetricsSubmitButton)
-                .addContainerGap(58, Short.MAX_VALUE))
+                .addContainerGap(75, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -312,40 +312,40 @@ public class PhysicalMetrics extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel bmiLabel;
-    private javax.swing.JLabel bmiLabel1;
-    private javax.swing.JLabel bmiLabel2;
-    private javax.swing.JLabel bmiLabel3;
-    private javax.swing.JLabel bmiLabel4;
-    private javax.swing.JLabel bmiLabel5;
-    private javax.swing.JLabel bmiLabel6;
-    private javax.swing.JLabel bmiLabel7;
-    private javax.swing.JLabel bmiLabel8;
-    private javax.swing.JLabel bmiLabel9;
     private javax.swing.JTextField bmiTextField;
-    private javax.swing.JTextField bmiTextField1;
-    private javax.swing.JTextField bmiTextField2;
-    private javax.swing.JTextField bmiTextField3;
-    private javax.swing.JTextField bmiTextField4;
-    private javax.swing.JTextField bmiTextField5;
-    private javax.swing.JTextField bmiTextField6;
-    private javax.swing.JTextField bmiTextField7;
-    private javax.swing.JTextField bmiTextField8;
-    private javax.swing.JTextField bmiTextField9;
+    private javax.swing.JLabel chestDescriptionLabel;
+    private javax.swing.JLabel chestLabel;
+    private javax.swing.JTextField chestTextField;
+    private javax.swing.JLabel heightDescriptionLabel;
     private javax.swing.JLabel heightLabel;
     private javax.swing.JTextField heightTextField;
+    private javax.swing.JLabel hipDescriptionLabel;
+    private javax.swing.JLabel hipLabel;
+    private javax.swing.JTextField hipTextField;
     private javax.swing.JLabel instructionTitleLabel;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel leftArmDescriptionLabel;
+    private javax.swing.JLabel leftArmLabel;
+    private javax.swing.JTextField leftArmTextField;
+    private javax.swing.JLabel leftCalfDescriptionLabel;
+    private javax.swing.JLabel leftCalfLabel;
+    private javax.swing.JTextField leftCalfTextField;
+    private javax.swing.JLabel leftThighDescriptionLabel;
+    private javax.swing.JLabel leftThighLabel;
+    private javax.swing.JTextField leftThighTextField;
     private javax.swing.JButton physicalMetricsSubmitButton;
+    private javax.swing.JLabel rightArmDescriptionLabel;
+    private javax.swing.JLabel rightArmLabel;
+    private javax.swing.JTextField rightArmTextField;
+    private javax.swing.JLabel rightCalfDescriptionLabel;
+    private javax.swing.JLabel rightCalfLabel;
+    private javax.swing.JTextField rightCalfTextField;
+    private javax.swing.JLabel rightThighDescriptionLabel;
+    private javax.swing.JLabel rightThighLabel;
+    private javax.swing.JTextField rightThighTextField;
+    private javax.swing.JLabel shoulderDescriptionLabel;
+    private javax.swing.JLabel shoulderLabel;
+    private javax.swing.JTextField shoulderTextField;
+    private javax.swing.JLabel weightDescriptionLabel;
     private javax.swing.JLabel weightLabel;
     private javax.swing.JTextField weightTextField;
     // End of variables declaration//GEN-END:variables
